@@ -98,6 +98,7 @@ public class PurchaseOrder {
     }
 
 // Uncomment this method for retrieving order total !!
+	// Rick Jen
     public Float getDiscountAmount() {
 	return ( (this.price * this.quantity) * ( Float.parseFloat(this.dcode) / 100 ) );
     } 
